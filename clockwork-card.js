@@ -1,7 +1,7 @@
 // Clockwork Card
 // https://github.com/robmarkoski/ha-clockwork-card
 
-class ClockWorkCard extends HTMLElement {
+class ClockWorkCard-test extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({
@@ -193,4 +193,4 @@ class ClockWorkCard extends HTMLElement {
   }
 }
 
-customElements.define("clockwork-card", ClockWorkCard);
+customElements.define("clockwork-card-test", ClockWorkCard-test);
